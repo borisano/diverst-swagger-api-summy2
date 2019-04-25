@@ -1,0 +1,1 @@
+json.partial! "api_v1_mentoring_session_topics/api_v1_mentoring_session_topic", api_v1_mentoring_session_topic: @api_v1_mentoring_session_topic

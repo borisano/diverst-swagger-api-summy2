@@ -1,0 +1,1 @@
+json.partial! "api_v1_base_elasticsearches/api_v1_base_elasticsearch", api_v1_base_elasticsearch: @api_v1_base_elasticsearch

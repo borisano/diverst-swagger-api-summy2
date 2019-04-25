@@ -1,0 +1,1 @@
+json.partial! "api_v1_initiative_expenses/api_v1_initiative_expense", api_v1_initiative_expense: @api_v1_initiative_expense

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Api V1 Base Searches</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @api_v1_base_searches.each do |api_v1_base_search| %>
+      <tr>
+        <td><%= link_to 'Show', api_v1_base_search %></td>
+        <td><%= link_to 'Edit', edit_api_v1_base_search_path(api_v1_base_search) %></td>
+        <td><%= link_to 'Destroy', api_v1_base_search, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Base search', new_api_v1_base_search_path %>

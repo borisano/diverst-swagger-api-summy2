@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Api V1 Mentorship Availabilities</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @api_v1_mentorship_availabilities.each do |api_v1_mentorship_availability| %>
+      <tr>
+        <td><%= link_to 'Show', api_v1_mentorship_availability %></td>
+        <td><%= link_to 'Edit', edit_api_v1_mentorship_availability_path(api_v1_mentorship_availability) %></td>
+        <td><%= link_to 'Destroy', api_v1_mentorship_availability, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Mentorship availability', new_api_v1_mentorship_availability_path %>

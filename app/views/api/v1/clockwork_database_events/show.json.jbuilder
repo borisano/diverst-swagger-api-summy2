@@ -1,0 +1,1 @@
+json.partial! "api_v1_clockwork_database_events/api_v1_clockwork_database_event", api_v1_clockwork_database_event: @api_v1_clockwork_database_event

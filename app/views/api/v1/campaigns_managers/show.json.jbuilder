@@ -1,0 +1,1 @@
+json.partial! "api_v1_campaigns_managers/api_v1_campaigns_manager", api_v1_campaigns_manager: @api_v1_campaigns_manager

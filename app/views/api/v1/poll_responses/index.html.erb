@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Api V1 Poll Responses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @api_v1_poll_responses.each do |api_v1_poll_response| %>
+      <tr>
+        <td><%= link_to 'Show', api_v1_poll_response %></td>
+        <td><%= link_to 'Edit', edit_api_v1_poll_response_path(api_v1_poll_response) %></td>
+        <td><%= link_to 'Destroy', api_v1_poll_response, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Poll response', new_api_v1_poll_response_path %>

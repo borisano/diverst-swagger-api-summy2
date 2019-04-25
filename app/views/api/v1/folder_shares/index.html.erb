@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Api V1 Folder Shares</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @api_v1_folder_shares.each do |api_v1_folder_share| %>
+      <tr>
+        <td><%= link_to 'Show', api_v1_folder_share %></td>
+        <td><%= link_to 'Edit', edit_api_v1_folder_share_path(api_v1_folder_share) %></td>
+        <td><%= link_to 'Destroy', api_v1_folder_share, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Folder share', new_api_v1_folder_share_path %>

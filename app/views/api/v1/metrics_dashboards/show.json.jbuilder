@@ -1,0 +1,1 @@
+json.partial! "api_v1_metrics_dashboards/api_v1_metrics_dashboard", api_v1_metrics_dashboard: @api_v1_metrics_dashboard

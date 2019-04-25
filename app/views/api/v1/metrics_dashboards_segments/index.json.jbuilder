@@ -1,0 +1,1 @@
+json.array! @api_v1_metrics_dashboards_segments, partial: 'api_v1_metrics_dashboards_segments/api_v1_metrics_dashboards_segment', as: :api_v1_metrics_dashboards_segment

@@ -1,0 +1,1 @@
+json.partial! "api_v1_group_category_types/api_v1_group_category_type", api_v1_group_category_type: @api_v1_group_category_type

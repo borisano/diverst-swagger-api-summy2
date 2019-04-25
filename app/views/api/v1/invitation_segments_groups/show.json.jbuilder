@@ -1,0 +1,1 @@
+json.partial! "api_v1_invitation_segments_groups/api_v1_invitation_segments_group", api_v1_invitation_segments_group: @api_v1_invitation_segments_group

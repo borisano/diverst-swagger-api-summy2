@@ -1,0 +1,1 @@
+json.partial! "api_v1_mentorship_ratings/api_v1_mentorship_rating", api_v1_mentorship_rating: @api_v1_mentorship_rating

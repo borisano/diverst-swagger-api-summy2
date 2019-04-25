@@ -1,0 +1,1 @@
+json.partial! "api_v1_group_message_comments/api_v1_group_message_comment", api_v1_group_message_comment: @api_v1_group_message_comment

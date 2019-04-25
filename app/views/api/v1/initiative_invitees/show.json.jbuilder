@@ -1,0 +1,1 @@
+json.partial! "api_v1_initiative_invitees/api_v1_initiative_invitee", api_v1_initiative_invitee: @api_v1_initiative_invitee

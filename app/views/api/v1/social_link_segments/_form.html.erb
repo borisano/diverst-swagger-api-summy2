@@ -1,0 +1,17 @@
+<%= form_for(@api_v1_social_link_segment) do |f| %>
+  <% if @api_v1_social_link_segment.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@api_v1_social_link_segment.errors.count, "error") %> prohibited this api_v1_social_link_segment from being saved:</h2>
+
+      <ul>
+      <% @api_v1_social_link_segment.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

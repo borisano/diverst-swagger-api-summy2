@@ -1,0 +1,25 @@
+default: &default
+  adapter: mysql2
+  url: <%= ENV["DATABASE_URL"] %>
+  pool: <%= ENV["DB_POOL"] || ENV["MAX_THREADS"] || 20 %>
+  encoding: utf8mb4
+  collation: utf8mb4_bin
+  timeout: 15000
+  password: root
+
+development:
+  <<: *default
+  database: diverst_development_swagger
+
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  <<: *default
+  database: diverst_test_swagger
+
+production:
+  <<: *default
+  database: diverst_production
+

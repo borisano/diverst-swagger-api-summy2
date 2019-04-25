@@ -1,0 +1,1 @@
+json.partial! "api_v1_policy_group_templates/api_v1_policy_group_template", api_v1_policy_group_template: @api_v1_policy_group_template

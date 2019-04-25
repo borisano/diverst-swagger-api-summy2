@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Api V1 Mentoring Types</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @api_v1_mentoring_types.each do |api_v1_mentoring_type| %>
+      <tr>
+        <td><%= link_to 'Show', api_v1_mentoring_type %></td>
+        <td><%= link_to 'Edit', edit_api_v1_mentoring_type_path(api_v1_mentoring_type) %></td>
+        <td><%= link_to 'Destroy', api_v1_mentoring_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Mentoring type', new_api_v1_mentoring_type_path %>

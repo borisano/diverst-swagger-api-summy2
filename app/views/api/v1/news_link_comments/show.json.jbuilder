@@ -1,0 +1,1 @@
+json.partial! "api_v1_news_link_comments/api_v1_news_link_comment", api_v1_news_link_comment: @api_v1_news_link_comment

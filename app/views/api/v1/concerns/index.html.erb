@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Api V1 Concerns</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @api_v1_concerns.each do |api_v1_concern| %>
+      <tr>
+        <td><%= link_to 'Show', api_v1_concern %></td>
+        <td><%= link_to 'Edit', edit_api_v1_concern_path(api_v1_concern) %></td>
+        <td><%= link_to 'Destroy', api_v1_concern, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Concern', new_api_v1_concern_path %>
